@@ -14,7 +14,7 @@ This project implements a CNN-based audio classifier for environmental sound cla
 ## Execution Steps:
 
 - **Step 1**: Download the ESC-50 dataset and extract it to the workspace environment of the application (Ensure that "ESC-50-master" is the top path)
-- **Step 2**: Run the save_melspectograms.ipynb file. This processes every sound into a mel-spectogram and performs test splitting of the dataset.
+- **Step 2**: Run the save_melspectrograms.ipynb file. This processes every sound into a mel-spectrogram and performs test splitting of the dataset.
 - **Step 3**: Run the TransferLearning_ESC50_Classifier.ipynb file. This is where the core model is.
 
 ## Some notes for the execution of the model:
