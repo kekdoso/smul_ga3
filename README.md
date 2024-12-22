@@ -17,6 +17,8 @@ This project implements a CNN-based audio classifier for environmental sound cla
 - **Step 2**: Run the save_melspectrograms.ipynb file. This processes every sound into a mel-spectrogram and performs test splitting of the dataset.
 - **Step 3**: Run the TransferLearning_ESC50_Classifier.ipynb file. This is where the core model is.
 
+The code in both files gives further instructions and insights into how the code should run to achieve our results. However, some of the files were too large to include in this repo and must be generated locally.
+
 ## Some notes for the execution of the model:
 - Please be careful while using the model weights file on different test splits, as this might make accuracy and other metrics unrealible.
 - If a retraining of the model is desired, consider that a GTX 1060 6GB GPU was used in a WSL environment (~45 minutes). Training with the CPU is possible, but takes too long.
