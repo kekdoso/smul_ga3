@@ -9,4 +9,4 @@ Execution steps:
 
 Some notes for the execution of the model:
 - A file with the weights of the trained model is available for faster execution.
-- If a retraining of the model is desired, consider that a GPU was used in a WSL environment (~45 minutes)
+- If a retraining of the model is desired, consider that a GTX 1060 6GB GPU was used in a WSL environment (~45 minutes). Training with the CPU is possible, but takes too long.
