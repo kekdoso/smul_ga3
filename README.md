@@ -11,13 +11,11 @@ This project implements a CNN-based audio classifier for environmental sound cla
 - **Transfer Learning**: Leverages pre-trained models for efficient and accurate sound classification.  
 - **Customizability**: Allows for model retraining or direct use of pre-trained weights.  
 
----
-
 ## Execution Steps:
 
-- Step 1: Download the ESC-50 dataset and extract it to the workspace environment of the application (Ensure that "ESC-50-master" is the top path)
-- Step 2: Run the save_melspectograms.ipynb file. This processes every sound into a mel-spectogram and performs test splitting of the dataset.
-- Step 3: Run the TransferLearning_ESC50_Classifier.ipynb file. This is where the core model is.
+- **Step 1**: Download the ESC-50 dataset and extract it to the workspace environment of the application (Ensure that "ESC-50-master" is the top path)
+- **Step 2**: Run the save_melspectograms.ipynb file. This processes every sound into a mel-spectogram and performs test splitting of the dataset.
+- **Step 3**: Run the TransferLearning_ESC50_Classifier.ipynb file. This is where the core model is.
 
 ## Some notes for the execution of the model:
 - A file with the weights of the trained model is available for faster execution. However, this might make accuracy and other metrics unrealible, as the test splitting for the specific weights might be different and the model could be classifying sounds it was trained on.
