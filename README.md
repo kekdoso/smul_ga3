@@ -1,5 +1,4 @@
 # smul_ga3 - Environmental Sound Classification
-Based on adanRiva's CNN-Audio-Classifier-with-Keras-Tensorflow repo (@ https://github.com/adanRivas/CNN-Audio-Classifier-with-Keras-Tensorflow/tree/master)
 This project implements a CNN-based audio classifier for environmental sound classification using the ESC-50 dataset. It is inspired by and builds upon [adanRivas's CNN-Audio-Classifier-with-Keras-Tensorflow](https://github.com/adanRivas/CNN-Audio-Classifier-with-Keras-Tensorflow/tree/master).  
 
 ## Features  
