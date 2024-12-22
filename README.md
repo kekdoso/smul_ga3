@@ -20,3 +20,12 @@ This project implements a CNN-based audio classifier for environmental sound cla
 ## Some notes for the execution of the model:
 - Please be careful while using the model weights file on different test splits, as this might make accuracy and other metrics unrealible.
 - If a retraining of the model is desired, consider that a GTX 1060 6GB GPU was used in a WSL environment (~45 minutes). Training with the CPU is possible, but takes too long.
+
+## Library dependencies:
+librosa==0.10.2.post1
+matplotlib==3.10.0
+numpy==2.2.1
+pandas==2.2.3
+pytest==8.3.4
+seaborn==0.13.2
+tqdm==4.67.1
